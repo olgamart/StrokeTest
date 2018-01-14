@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.stroketest.olgamart.stroketest.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/patient_data_layout"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:text="@string/second_name_layout"
+        android:textAlignment="viewStart"
+        android:textColor="?attr/colorControlNormal"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/secondName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="textCapWords|textPersonName"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/holo_red_dark"
+        android:textColorLink="@color/colorAccent"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:text="@string/first_name_layout"
+        android:textAlignment="viewStart"
+        android:textColor="?attr/colorControlNormal"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="textCapWords|textPersonName"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/holo_red_dark"
+        android:textColorLink="?attr/colorControlNormal"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:text="@string/middle_name_layout"
+        android:textAlignment="viewStart"
+        android:textColor="?attr/colorControlNormal"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/middleName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="textCapWords|textPersonName"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/holo_red_dark"
+        android:textColorLink="?attr/colorControlNormal"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:text="@string/age_layout"
+        android:textAlignment="viewStart"
+        android:textColor="?attr/colorControlNormal"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="260dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="number"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/holo_red_dark"
+        android:textColorLink="?attr/colorControlNormal"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:text="@string/gender_layout"
+        android:textAlignment="viewStart"
+        android:textColor="?attr/colorControlNormal"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/mn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="@string/male"
+            android:textColor="?attr/colorControlNormal"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/fm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/female"
+            android:textColor="?attr/colorControlNormal"
+            android:textSize="16sp" />
+    </RadioGroup>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/next1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/next" />
+    </RelativeLayout>
+
+</LinearLayout>
